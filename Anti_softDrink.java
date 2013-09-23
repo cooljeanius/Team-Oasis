@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Anti_softDrink {
 
-public static void main(String[] args) 
+public static void main(String[] args)
 {
 Scanner input = new Scanner(System.in);
 
@@ -23,7 +23,7 @@ int soft_num;
 System.out.print(" Please enter your name : ");
 name = input.next();
 System.out.println("");
-System.out.println(" Welcome " + name.toUpperCase() + ", this is a basic Python program that predicts when u are liable to be diabetic.");
+System.out.println(" Welcome " + name.toUpperCase() + ", this is a basic Java program that predicts when you are liable to be diabetic.");
 
 System.out.println("");
 
@@ -34,7 +34,7 @@ soft_num = input.nextInt();
 if (soft_num >= 21 & soft_num <= 30 )
 {
 
-System.out.println(" Stop taking soft drinks or you will have yourself to blame once you are diagnosed with diabetis");
+System.out.println(" Stop taking soft drinks or you will have yourself to blame once you are diagnosed with diabetes");
 
 } else if(soft_num >= 11 & soft_num <= 20)
 {
@@ -49,7 +49,7 @@ System.out.println(" Please Reduce your intake of soft drinks or in 15 yrs you w
 } else
 {
 
-System.out.println(" Thanks " + name + " , for taking my Anti-Soft drink advice.");
+System.out.println(" Thanks " + name + ", for taking my Anti-Soft drink advice.");
 
 }
 
